@@ -4,7 +4,7 @@
 ## v2.1.2
 
 -------------------
-## TODO: FINISH THIS README.md!!!
+### TODO: FINISH THIS README.md!
 
 ## Content
 * Purpose
@@ -49,7 +49,7 @@ Please use the conda environment on a UNIX machine. Tested only on Ubuntu (Debia
 
 
 ### FULL OPTIONS:
-`
+````
   -h, --help            show this help message and exit
   --version             show program's version number and exit
   -i File, --input-directory File
@@ -84,4 +84,4 @@ Please use the conda environment on a UNIX machine. Tested only on Ubuntu (Debia
                         backslashes. WARNING: MUST contain an Identifier for the 'R1' read if R1 and R2 read fastq files are present in input directory! Can be used to specify BAM file name pattern.
   -sd, --search-subdirectories
                         Flag: if set, the input directory's subdirectories will also be searched for fastQ files matching the (default/provided) name pattern.
-  -k, --keep-sam        Do not delete the SAM file!`
+  -k, --keep-sam        Do not delete the SAM file!
