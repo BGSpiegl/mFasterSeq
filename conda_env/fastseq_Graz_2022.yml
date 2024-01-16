@@ -1,0 +1,16 @@
+name: fastseq_Graz_2022
+channels:
+  - bioconda
+  - conda-forge
+  - r
+  - defaults
+dependencies:
+  - bwa
+  - picard
+  - samtools
+  - pysam
+  - natsort
+  - pandas
+  - scipy
+  - r-base
+  - matplotlib  # for reference comparison visualization
